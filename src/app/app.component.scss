@@ -1,0 +1,16 @@
+h1 {
+  color: royalblue;
+}
+
+div {
+  text-align: center;
+}
+
+.contenedor-componentes {
+  display: flex;
+  justify-content: space-evenly;
+
+  app-comp-one, app-comp-two {
+    width: 50%;
+  }
+}
